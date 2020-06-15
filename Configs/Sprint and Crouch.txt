@@ -1,0 +1,49 @@
+With this installed you will no longer need to hold down Shift in order to Sprint. Holding down W alone will make you sprint at all times. Holding down W + Shift now makes you Jog/Run.
+
+You will now have to hold down your crouch key in order to stay crouched. You can get stuck in crouch if you are holding your crouch key and pressing your jump key at the same time. To get unstuck, simply press your jump key again.
+
+
+
+Installation (if you want both features):
+
+1. Navigate to your main APB directory. If you're a Steam user, it should look something like this: C:\Program Files (x86)\Steam\steamapps\common\APB Reloaded
+
+2. Copy and paste my "APBGame" folder into your main APB directory where your own "APBGame" folder is and replace everything. Windows will automatically only detect the conflicting files, everything else will remain untouched.
+
+(Skip step 3 if you've already done it.)
+3. Create a shortcut of APB / APB.exe from the APB Reloaded\Binaries folder to your desktop (or wherever you launch your games from) and always start the game from there.
+
+
+Note: If you launch it from the Steam Library or the GamersFirst launcher, the game will replace the custom config with the default one and you will have to redo the entire process. Always launch the game from that newly made APB shortcut unless there is a game patch, in which case you must patch the game the normal way then re-apply the config files and launch from the shortcut again.
+
+
+If you only want one or the other, follow the instructions below:
+
+
+Post on the G1 APB Forums by Niuva.net on 02 March 2012 - 01:07 AM (Altered by me slightly to describe everything correctly)
+-------------
+
+*** Hold to crouch ***
+
+In APB Reloaded\APBGame\Config\APBInput.ini find this: (you can use CTRL + F to search)
+
+Bindings=(Name="Duck",Command="Button m_bDuckButton | InputToggleDuck")
+
+To this:
+
+Bindings=(Name="Duck",Command="Button m_bDuckButton | InputToggleDuck | OnRelease InputToggleDuck")
+
+
+
+
+*** Always Sprint ***
+
+Above the Duck(Crouch) line is the sprint one, just replace it with this: (or just use CTRL + F again to search for "Sprint")
+
+Bindings=(Name="Sprint",Command="InputStopSprinting | OnRelease InputSprinting")
+
+*Oh, just bear in mind that if you press the crouch button while sprint jumping, it gets stuck. So you need to tap space once to get out of the crouch. It's not flawless but it works.
+
+Apparently Schiznik came up with these handy .ini fixes. Cheers.
+
+-------------

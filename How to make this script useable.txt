@@ -1,0 +1,28 @@
+Run this command in powershell if you dont want to tinker to get the script to work Set-ExecutionPolicy -ExecutionPolicy Unrestricted
+
+Run this command if your willing to take 5 seconds to make the script work. Set-ExecutionPolicy -ExecutionPolicy RemoteSigned
+
+To make the script work with option 2 its easy. Just Copy paste the script into a blank new script and edit the script like you need to do to get it to work anyways. This should fool windows into thinking its from your PC and not the web.
+
+
+Below is some information about ExecutionPolicy
+
+Heres a link to Microsofts website about Set-ExecutionPolicy https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.security/set-executionpolicy?view=powershell-7
+
+
+Please note this script is in Alpha. 
+
+
+-ExecutionPolicy
+
+Specifies the execution policy. If there are no Group Policies and each scope's execution policy is set to Undefined, then Restricted becomes the effective policy for all users.
+
+The acceptable execution policy values are as follows:
+
+    AllSigned. Requires that all scripts and configuration files are signed by a trusted publisher, including scripts written on the local computer.
+    Bypass. Nothing is blocked and there are no warnings or prompts.
+    Default. Sets the default execution policy. Restricted for Windows clients or RemoteSigned for Windows servers.
+    RemoteSigned. Requires that all scripts and configuration files downloaded from the Internet are signed by a trusted publisher. The default execution policy for Windows server computers.
+    Restricted. Doesn't load configuration files or run scripts. The default execution policy Windows client computers.
+    Undefined. No execution policy is set for the scope. Removes an assigned execution policy from a scope that is not set by a Group Policy. If the execution policy in all scopes is Undefined, the effective execution policy is Restricted.
+    Unrestricted. Beginning in PowerShell 6.0, this is the default execution policy for non-Windows computers and can't be changed. Loads all configuration files and runs all scripts. If you run an unsigned script that was downloaded from the internet, you're prompted for permission before it runs.

@@ -1,0 +1,31 @@
+This updated Graphics config is further optimized, further lowering the quality of the environment and things most players don't care about such as contacts, civilians and civilian vehicles while preserving player characters, cars, symbols and weapons quality. Also lowered prop quality such as fences and doors, just enough to be able to see through them.
+
+
+It comes in 4 presets:
+
+1. Minimal in-game Preset - Standard Flaws Config: High quality characters, cars, symbols, weapons, grenade/OPGL/rocket smoke is clearly visible, fences and doors are see-through. Everything else is lowest possible quality, shadows are disabled. Better than default game settings for low end PC users but not ideal.
+
+2. Low in-game Preset - Standard Flaws Config + Shadows: Same as Standard but shadows are enabled. Not so good for low end PC's due to the shadows.
+
+3. Medium in-game Preset - Low Poly: Everything is super low quality and low polygon but it's a lot better than clay graphics. Fences and doors are see-through, grenade/OPGL/rocket smoke is visible, shadows disabled. Great for low end PC users who don't care about visuals but don't want to use clay graphics.
+
+4. High in-game Preset - Low Poly + Shadows: Same as Low Poly but has shadows enabled. Not so great for low end PC's due to the shadows.
+
+Maximum is default maximum (no changes).
+
+
+Note: I do not recommend switching between Standard and Low Poly presets mid-gameplay as it is likely to crash your game. Either change it and restart the game or do it in the login screen before joining any districts.
+
+
+
+Installation:
+
+1. Navigate to your main APB directory. If you're a Steam user, it should look something like this: C:\Program Files (x86)\Steam\steamapps\common\APB Reloaded
+
+2. Copy and paste my "APBGame" folder into your main APB directory where your own "APBGame" folder is and replace everything. Windows will automatically only detect the conflicting files, everything else will remain untouched.
+
+(Skip step 3 if you've already done it.)
+3. Create a shortcut of APB / APB.exe from the APB Reloaded\Binaries folder to your desktop (or wherever you launch your games from) and always start the game from there.
+
+
+Note: If you launch it from the Steam Library or the GamersFirst launcher, the game will replace the custom config with the default one and you will have to redo the entire process. Always launch the game from that newly made APB shortcut unless there is a game patch, in which case you must patch the game the normal way then re-apply the config files and launch from the shortcut again.

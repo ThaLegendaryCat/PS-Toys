@@ -1,0 +1,15 @@
+This makes the login and character screen completely black and you won't be able to see your character models in the menu when you click on them. However, with this file, you can create new characters without any issues and it completely skips the black screen loading time at the beginning. Right after the game launches, there is usually a black screen that goes on for 10-20 seconds or more, depending on your system. This file completely skips it and directly logs you in, resulting in MUCH faster load time for the game.
+
+
+
+Installation:
+
+1. Navigate to your main APB directory. If you're a Steam user, it should look something like this: C:\Program Files (x86)\Steam\steamapps\common\APB Reloaded
+
+2. Copy and paste my "APBGame" folder into your main APB directory where your own "APBGame" folder is and replace everything. Windows will automatically only detect the conflicting files, everything else will remain untouched.
+
+(Skip step 3 if you've already done it.)
+3. Create a shortcut of APB / APB.exe from the APB Reloaded\Binaries folder to your desktop (or wherever you launch your games from) and always start the game from there.
+
+
+Note: If you launch it from the Steam Library or the GamersFirst launcher, the game will replace the custom file with the default one and you will have to redo the entire process. Always launch the game from that newly made APB shortcut unless there is a game patch, in which case you must patch the game the normal way then re-apply the config files and launch from the shortcut again.

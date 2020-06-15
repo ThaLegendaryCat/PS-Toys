@@ -1,0 +1,40 @@
+Yes, this is my entire personal localization which changes 99% of the UI/HUD text within the game.
+
+The whole point of it is to help you focus more on the actual game than deal with the tedious, long, utterly useless orange texts of the vanilla UI that take up half the screen and tell you things that a single word can tell you in most cases.
+
+Originally this localization was private but due to recent events I've decided to release it publically in it's full form. It was a super popular request too so now everyone can use it.
+
+
+Features include but are not limited to:
+
+ - The /abandonmission command is changed to simply /a for convenience. So now instead of dealing with tedious methods of abandoning quick, simply type /a and you will abandon your mission.
+ - Missions that are usually avoided by players now have their names in full bright red so that you know to abandon quickly.
+ - Gets rid of tons of useless messages and pop ups such as who got what achievement, who maxed out which contact in the district, ammo resupply notifications and lots of others.
+ - Simplifies the overall interface, giving maximum information while remaining compact and much easier to read with just a quick glance compared to vanilla UI.
+ - Enhances and recolors texts and makes everything look much cleaner, nicer and easier on the eyes allowing you to focus more on the actual game.
+ - It's created with being as competitive oriented as possible so it's much more minimalistic than vanilla but still provides all the vital information for gameplay.
+ - Included is a variant of rooq and Lazer's mission stages config with timers and other extras.
+
+
+There will be updates to it as it's not 100% done. It's about 99% done but I change/add and improve things around often and also according to new content that gets released/added to the game such as events or systems that can have their texts altered (unfortunately, some things can't such as some events and the trade system because LO has decided to hardcode them for an unknown reason).
+
+
+Feel free to edit it however you see fit to your specific wishes, but if you decide to distribute it publically to other players, I would appreciate a mention that the base is made by me :)
+
+
+Installation:
+
+1. Copy paste the GER folder in your APB Reloaded\APBGame\Localization folder and overwrite the existing files (if any).
+
+(Skip steps 2 and 3 if you've already done both.)
+2. Create a shortcut of APB / APB.exe from the APB Reloaded\Binaries folder to your desktop (or wherever you launch your games from).
+
+3. Right click the newly made shortcut, go to Properties and add " -language=1031" (without the quotation marks "") at the end of the Target path. The empty space before the - is required for it to work.
+
+Example Correct Target Path: "C:\Program Files (x86)\Steam\steamapps\common\APB Reloaded\Binaries\APB.exe" -language=1031
+
+
+You must run APB from the newly created and edited shortcut to use the Flaws Localization, if you run the game from the Steam library, the GamersFirst launcher OR the Advanced APB Launcher, you will not see the changes.
+
+
+Big thanks to rooq, Lazer and others who've helped to create this file set.

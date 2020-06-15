@@ -1,0 +1,19 @@
+Note: This is the OLD Mission Names Config which I will leave in the archive for anyone in case they prefer it. I strongly recommend that you use the newly added "Mission Stages (Description)" config instead.
+
+All mission names at the top right corner have been changed to include the number of stages, the final stage and then the regular name the mission goes by. Similiar to what Tobii had but this is a compact version which keeps the original mission names as well. Example pulled from the config itself: [5:AREA] CEO SHOWDOWN. Make sure to read the instructions below for it to work.
+
+
+
+Installation:
+
+1. Copy paste the GER folder in your APB Reloaded\APBGame\Localization folder and overwrite the existing files (if any).
+
+(Skip steps 2 and 3 if you've already done both.)
+2. Create a shortcut of APB / APB.exe from the APB Reloaded\Binaries folder to your desktop (or wherever you launch your games from).
+
+3. Right click the newly made shortcut, go to Properties and add " -language=1031" (without the quotation marks "") at the end of the Target path. The empty space before the - is required for it to work.
+
+Example Correct Target Path: "C:\Program Files (x86)\Steam\steamapps\common\APB Reloaded\Binaries\APB.exe" -language=1031
+
+
+You must run APB from the newly created and edited shortcut to use the Mission Name Config, if you run the game from the Steam library, the GamersFirst launcher OR the Advanced APB Launcher, you will not see the changes.

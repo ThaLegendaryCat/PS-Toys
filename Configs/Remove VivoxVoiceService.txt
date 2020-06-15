@@ -1,0 +1,14 @@
+It disables the VivoxVoiceService.exe making it do nothing. This is the process which allows VoIP on APB but since the process causes stuttering and performance isuses on some PC's + VoIP is almost never used in APB, this file disables it. Alternatively you could just open your Task Manager each time you launch APB and find the process in "Details" and end it manually.
+
+
+Installation:
+
+1. Navigate to your main APB directory. If you're a Steam user, it should look something like this: C:\Program Files (x86)\Steam\steamapps\common\APB Reloaded
+
+2. Copy and paste my "Binaries" folder into your main APB directory where your own "Binaries" folder is and replace everything. Windows will automatically only detect the conflicting files, everything else will remain untouched.
+
+(Skip step 3 if you've already done it.)
+3. Create a shortcut of APB / APB.exe from the APB Reloaded\Binaries folder to your desktop (or wherever you launch your games from) and always start the game from there.
+
+
+Note: If you launch it from the Steam Library or the GamersFirst launcher, the game will replace the custom file with the default one and you will have to redo the entire process. Always launch the game from that newly made APB shortcut unless there is a game patch, in which case you must patch the game the normal way then re-apply the config files and launch from the shortcut again.

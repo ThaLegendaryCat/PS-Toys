@@ -1,0 +1,18 @@
+Most up to date version as of 11.02.2020 by Lazer.
+
+Changes the description of each mission at the top right to show each stage of the entire mission as they come and it highlights the stage you are on currently. Very similar to what you've probably seen on my stream/videos but this public version has default orange coloring and no timers. It is still the best mission config you can find publically for APB so I strongly recommend that you use it. Made by rooq and finished by Lazer after months of extensive testing by me and others. Make sure to report bugs to me or Lazer if you find any.
+
+
+Installation:
+
+1. Copy paste the GER folder in your APB Reloaded\APBGame\Localization folder and overwrite the existing files (if any).
+
+(Skip steps 2 and 3 if you've already done both.)
+2. Create a shortcut of APB / APB.exe from the APB Reloaded\Binaries folder to your desktop (or wherever you launch your games from).
+
+3. Right click the newly made shortcut, go to Properties and add " -language=1031" (without the quotation marks "") at the end of the Target path. The empty space before the - is required for it to work.
+
+Example Correct Target Path: "C:\Program Files (x86)\Steam\steamapps\common\APB Reloaded\Binaries\APB.exe" -language=1031
+
+
+You must run APB from the newly created and edited shortcut to use the Mission Stages (Description) config, if you run the game from the Steam library, the GamersFirst launcher OR the Advanced APB Launcher, you will not see the changes.
